@@ -2,16 +2,16 @@
 
 Sitio web estático para el cortometraje documental **"Chimbuceros: Time to live"**.
 
-## 📖 Descripción
+##  Descripción
 
 Chimbuceros es un cortometraje documental que captura la resistencia cultural a través de la vida cotidiana, voces e instrumentos que se resisten al silencio. La película muestra cómo la tradición lucha contra la desaparición y cómo perdura la memoria colectiva.
 
-## 🚀 Demo en vivo
+##  Demo en vivo
 
 - **Producción**: https://biyum.agency/chimbuceros
 - **GitHub Pages**: https://alejandrovelozvera-hash.github.io/chimbuceros-website/
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 chimbuceros-website/
@@ -24,7 +24,7 @@ chimbuceros-website/
     └── presence-autochtone.png  # Imagen local (festival Presence Autochtone)
 ```
 
-## ✨ Características
+##  Características
 
 - **Diseño responsivo** — Mobile-first, funciona en todos los dispositivos
 - **Internacionalización (i18n)** — Español / Inglés con persistencia en localStorage
@@ -33,14 +33,14 @@ chimbuceros-website/
 - **Navegación fluida** — Scroll suave, botón "volver arriba", menú hamburguesa en móvil
 - **Tema oscuro cinematográfico** — Paleta dorada/crema sobre fondo negro profundo
 
-## 🛠 Tecnologías
+## Tecnologías
 
 - HTML5 semántico
 - CSS3 (Custom Properties, Grid, Flexbox, Animaciones)
 - Vanilla JavaScript (ES6+)
 - Fuentes: Playfair Display, DM Sans, Libre Baskerville (Google Fonts)
 
-## 📦 Instalación y desarrollo
+##  Instalación y desarrollo
 
 ```bash
 # Clonar repositorio
@@ -57,7 +57,7 @@ php -S localhost:8000
 
 Abrir `http://localhost:8000` en el navegador.
 
-## 🌐 Despliegue
+## Despliegue
 
 ### GitHub Pages
 1. Settings → Pages → Source: "Deploy from a branch"
@@ -68,7 +68,7 @@ Abrir `http://localhost:8000` en el navegador.
 - Conectar repositorio → Build command: (ninguno) → Output directory: `/`
 - Deploy automático en cada push
 
-## 🎬 Secciones del sitio
+##  Secciones del sitio
 
 | Sección | ID | Descripción |
 |---------|-----|-------------|
@@ -94,7 +94,7 @@ La mayoría de imágenes se cargan desde **biyum.agency** (CDN original):
 **Una imagen local** en `assets/`:
 - `presence-autochtone.png` — Festival Presence Autochtone (Canadá)
 
-## 🌍 Internacionalización
+## Internacionalización
 
 Textos gestionados en `js/main.js` → objeto `i18n` con claves `es` / `en`.
 
@@ -103,7 +103,7 @@ Para añadir idioma:
 2. Añadir botón en `.nav-lang` con `data-lang="xx"`
 3. El sistema detecta y aplica automáticamente
 
-## 🎨 Personalización de colores
+##  Personalización de colores
 
 Variables CSS en `:root` (inicio de `css/style.css`):
 
@@ -125,13 +125,13 @@ Variables CSS en `:root` (inicio de `css/style.css`):
 }
 ```
 
-## 📱 Breakpoints responsivos
+##  Breakpoints responsivos
 
 - **Desktop**: > 900px (grid 5 columnas crew, 3 galería)
 - **Tablet**: 600–900px (2 columnas crew/galería, menú hamburguesa)
 - **Mobile**: < 600px (1 columna galería, 2 crew, botones full-width)
 
-## 🔧 Scripts principales (`js/main.js`)
+## Scripts principales (`js/main.js`)
 
 | Función | Descripción |
 |---------|-------------|
@@ -141,7 +141,7 @@ Variables CSS en `:root` (inicio de `css/style.css`):
 | `IntersectionObserver` | Añade `.visible` a elementos `.reveal` al entrar en viewport |
 | `scroll` listener | Navbar scrolled, botón back-to-top, float-ui ready |
 
-## 📄 Licencia
+##  Licencia
 
 © 2026 Chimbuceros — Todos los derechos reservados.
 
