@@ -82,7 +82,7 @@ Abrir `http://localhost:8000` en el navegador.
 | Contacto | `#contacto` | 3 emails del equipo principal |
 | Footer | — | Logo + copyright |
 
-## 🖼 Imágenes
+## Imágenes
 
 La mayoría de imágenes se cargan desde **biyum.agency** (CDN original):
 - Logo Chimbuceros
